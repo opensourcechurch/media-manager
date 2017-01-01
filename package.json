@@ -1,0 +1,26 @@
+{
+  "name": "media-manager",
+  "version": "1.0.0",
+  "description": "Open Source Church Media Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opensourcechurch/media-manager.git"
+  },
+  "keywords": [
+    "Church",
+    "Media"
+  ],
+  "author": "Anthony Kunda",
+  "license": "\tApache-2.0",
+  "bugs": {
+    "url": "https://github.com/opensourcechurch/media-manager/issues"
+  },
+  "homepage": "https://github.com/opensourcechurch/media-manager#readme",
+  "dependencies": {
+    "restify": "^4.3.0"
+  }
+}
