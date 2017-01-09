@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/opensourcechurch/media-manager#readme",
   "dependencies": {
-    "restify": "^4.3.0"
+    "mongoose": "^4.7.6",
+    "node-pbkdf2": "^0.1.1",
+    "restify": "^4.3.0",
+    "uuid": "^3.0.1"
   }
 }
