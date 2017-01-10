@@ -36,7 +36,9 @@ module.exports = function(server, restify){
 						return next(new restify.UnauthorizedError("Incorrect Password"));
 					} else {
 						var token = uuid()
-						sessionEntry = new session({user_id:user, token:token, expire: new Date(60*60*6)})
+						var expireDate = new Date()
+						expireDate.setHours(expireDate.getHours()+4)
+						sessionEntry = new session({user_id:user, token:token, expire: expireDate})
 						sessionEntry.save()
 						res.send({success:true, token:token})
 					}
